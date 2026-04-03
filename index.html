@@ -1,12 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=https://mantisg.github.io/Portfolio/">
-    <script>
-      window.location.href = "https://mantisg.github.io/Portfolio/";
-    </script>
-  </head>
-  <body>
-    <p>If you are not redirected, <a href="https://mantisg.github.io/Portfolio/">click here</a>.</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Bliven</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="about">
+            <h1>Joshua Bliven</h1>
+            <p>Software Engineer</p>
+            <h2>About Me</h2>
+            <p>
+                I am a self-taught software developer with a passion for creating beautiful applications and solutions that are practical and scalable. 
+                I have experience with multiple programming languages and frameworks.
+                My goal is to continuously learn and grow as a developer while contributing to meaningful projects.
+                <br><br>
+                When I'm not coding, I enjoy playing video games, having fun with my son, and traveling when I can. 
+                I study new technologies and frameworks in my free time to gain a better understanding of computer science as a whole allowing me to seamlessly adapt to new tech stacks 
+                and environments.
+                <br><br>
+                The one thing I wish I had was more developers to collaborate with and learn from. If you're interested in working together, feel free to reach out!
+            </p>
+        </div>
+        <img id="self" src="self.png" alt="Image of Joshua Bliven">
+    </header>
+    <main>
+        <section class="projects">
+            <h2 id="project-title">Projects</h2>
+            <div id="projects-container">
+                <nav class="project-list">
+                    <div class="project-row">
+                        <div id="polygonia" class="project">
+                            <img class="project-img" src="polygonia.png" alt="Title screen for the game Polygonia">
+                            <h3>Polygonia</h3>
+                            <p>A small rogue-like game built with Python Pygame</p>
+                            <a href="https://github.com/mantisg/PaperTrail" target="_blank">Github Repo</a>
+                        </div>
+                        <div id="anassa" class="project">
+                            <img class="project-img" src="anassa.png" alt="Example photo of the Anassa E-Commerce website">
+                            <h3>Anassa</h3>
+                            <p>An E-Commerce website built with the Django framework.</p>
+                            <a href="https://github.com/mantisg/Anassa" target="_blank">Github Repo</a>
+                        </div>
+                        <div id="bagaje" class="project">
+                            <img class="project-img" src="bagaje.png" alt="Screenshot of Bagaje project">
+                            <h3>Bagaje</h3>
+                            <p>A social media-esque web application being built with Flask and MongoDB</p>
+                            <a href="https://github.com/mantisg/BagajeFlask" target="_blank">Github Repo</a>
+                        </div>
+                    </div>
+                    <div class="project-row">
+                        <div id="geometry" class="project">
+                            <img class="project-img" src="geometry.png" alt="Screenshot of the Geometry Calculator command line application">
+                            <h3>Geometry Calculator</h3>
+                            <p>A command line application that calculates the area and perimeter of basic geometric shapes.</p>
+                            <a href="https://github.com/mantisg/GeometryCalculator" target="_blank">Github Repo</a>
+                        </div>
+                        <div id="ctphome" class="project">
+                            <img class="project-img" src="ctphome.png" alt="Screenshot of the CTP Home web application">
+                            <h3>CTP Home</h3>
+                            <p>An internal web application for generating reports and data for my previous job, Connecting the Pieces.</p>
+                            <a href="https://github.com/meetctp/CTPReportGenerator" target="_blank">Github Repo</a>
+                        </div>
+                        <div id="luca"class="project">
+                            <img class="project-img" src="luca.png" alt="Screenshot of Luca's Adventure game">
+                            <h3>Luca's Adventure</h3>
+                            <p>A small 2D sidescroller game built with Python Pygame for my son.</p>
+                            <a href="https://github.com/mantisg/LucasAdventure2D" target="_blank">Github Repo</a>
+                        </div>
+                    </div>
+                </nav>
+                <div id="details-window" class="details-window">
+                    <h3 id="details-title"></h3>
+                    <img id="details-image">
+                    <p id="details-desc"></p>
+                </div>
+            </div>
+        </section>
+        <section class="skills"></section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:joshua.bliven.dev@gmail.com" target="_blank">joshua.bliven.dev@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/joshua-bliven-89512b26b/" target="_blank">linkedin.com/in/joshua-bliven-89512b26b</a></p>
+            <p>Github: <a href="https://github.com/mantisg" target="_blank">github.com/mantisg</a></p>
+        </section>
+    </footer>
+</body>
 </html>
